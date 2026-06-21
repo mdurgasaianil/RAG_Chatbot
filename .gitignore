@@ -1,0 +1,28 @@
+# Node modules — never commit these
+frontend/node_modules/
+node_modules/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+
+# Environment files — never commit API keys
+.env
+.env.local
+*.env
+
+# Next.js build output
+frontend/.next/
+frontend/out/
+
+# OS files
+.DS_Store
+.DS_Store?
+
+# Chroma DB local storage
+chroma_db/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
